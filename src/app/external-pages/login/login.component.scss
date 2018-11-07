@@ -1,0 +1,479 @@
+@import url(assets/flags/flags.css);
+@import url(assets/flags/flags.min.css);
+
+
+.portal-register-container  {
+  min-height: 100%;
+}
+.portal-register-card {
+  padding: 0;
+  box-shadow: 0 11px 15px -7px rgba(0,0,0,.2), 0 24px 38px 3px rgba(0,0,0,.14), 0 9px 46px 8px rgba(0,0,0,.12);
+  mat-card-title h1 {
+    margin-bottom: 0;
+  }
+  mat-card-content {
+    min-height: 350px;
+    padding: 48px;
+    margin: 0;
+  }
+}
+.portal-register-logo {
+  height: 40px;
+}
+
+.portal-card-actions {
+  padding: 16px;
+}
+
+.mat-form-field {
+  width: 100%;
+}
+
+.portal-first-name {
+  margin-right: 16px;
+}
+
+
+// If the screen size is 601px wide or more, set the font-size of <div> to 80px /
+@media screen and (min-width: 901px) {
+    .h1,.h5 {
+      font-size: 5vw;
+    }
+    .h2,.h3 {
+        font-size:1.3vw;
+      }
+      .h2h,.green {
+        font-size:2.0vw;
+      }
+      .h4,.h7,.h8 {
+        font-size:1.1vw;
+      }
+      #myBtn {
+        font-size:1.8vw;
+      }
+  }
+  
+  // If the screen size is 600px wide or less, set the font-size of <div> to 30px /
+  @media screen and (max-width: 900px) {
+    .h1,.h5 {
+      font-size:60px;
+    }
+    .h2,.h3 {
+        font-size:16px;
+      }
+    .h2h,.green {
+        font-size:20px;
+      }
+      .h4,.h7,.h8  {
+        font-size:12px;
+      }
+      #myBtn {
+        font-size:18px;
+      }
+  }
+
+.aclass{
+    color: #cc4244;
+    vertical-align: bottom;
+    text-decoration: underline;
+}
+
+international-phone-number{
+    border:0;
+    padding-bottom: 0;
+    border-bottom:1px solid #c1c1c1;
+}
+
+.features{
+    background-color: #0052c2;
+    min-height: 350px !important;
+}
+.rectangle{
+    height: 100px;
+    width: 70px;
+    padding-top: 30px;
+    text-align: center;
+    vertical-align: middle;
+    background-color: #004fbc;
+  }
+.pricing{
+    background-color: white;
+}
+.form{
+    background-color: white;
+}
+.touch{
+    background-image: url(assets/images/home/touch.png);
+    background-size: 100% 100%;
+}
+.footer{
+    background-color: #f0f0f0;
+}
+body{
+    background-image: url(assets/images/Car-banner.png);
+    background-size: 100% 100%;
+    height: 85%;
+    width: 100% !important;
+    padding-top: 6.5rem;
+}
+.container{
+    width: 100% !important;
+    padding-left: 6%;
+    padding-right: 5%;
+
+}
+.max{
+    width: 100% !important;
+}
+.container2{
+    
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.container3{
+    
+    padding-left: 12%;
+    padding-right: 5%;
+}
+table{
+    widows: 100%;
+    height: 400px;
+    padding-top: 2px;
+}
+.nav-link{
+    color: white;
+}
+.navbar{
+    color: white;
+}
+.navbar-brand{
+    padding-left: 12%;
+}
+.whitebackground{
+    background-color: white;
+}
+.h1{
+   color: white;
+    font-weight: bold !important;
+    font-family: semibold;  
+}
+.h2{
+    color: white;
+    font-family: semibold;  
+}
+.h2h{
+    color: white;
+    font-family: semibold;  
+}
+.h3{
+     display: inline;
+    color: white;
+    
+    font-family: ultra_light;  
+}
+.h4{
+    color: white;
+    font-family: semibold;  
+}
+.h5{
+    color: white;
+    font-weight: normal !important;
+    font-family: ultra_light;  
+}
+.h6{
+    vertical-align: bottom;
+    color: red; 
+}
+.h7{
+    color: white;
+    font-family: ultra_light;  
+}
+.h8{
+    color: white;
+    font-family: ultra_light;  
+}
+.red{
+    color: #bb0000;
+}
+.alignleft{
+    text-align: left;
+    
+}
+.alignbottom{
+    display: table-cell;
+    vertical-align: bottom;
+}
+.alignright{
+    text-align: right;
+}
+.redtext{
+    color: #c80813;
+}
+.bold{
+    font-weight: bold;
+}
+.bordered{
+    border: #012e9d solid 2px !important;
+
+}
+.inline{
+    display: inline;  
+}
+.text-danger{
+    display:inline;
+}
+.centered{
+    vertical-align: middle;
+    text-align: center;
+}
+.centeredalign{
+    text-align: center;
+}
+button{
+    background-color: transparent;
+    color: white;
+}
+.btn {
+    background-color: #dc1431;
+    border-radius: 40px;
+    border-color: #dc1431;
+    box-sizing: border-box;
+	color: #fff;
+	display: block;
+	font: ultra_light;
+	letter-spacing: 1px;
+	margin: 0 auto;
+	padding: 4px;
+	position: relative;
+    text-decoration: none;
+    z-index: 2;
+    padding-block-start: 3px;
+    padding-block-end: 3px;
+    text-align: center;
+}
+.btnfull {
+    background-color: #dc1431;
+    border-color: #dc1431;
+    width: 100%;
+    height: 50px;
+	border-radius: 40px;
+    box-sizing: border-box;
+	color: #fff;
+	display: block;
+	font: ultra_light;
+	letter-spacing: 1px;
+	margin: 0 auto;
+	padding: 4px;
+	position: relative;
+    text-decoration: none;
+    z-index: 2;
+    padding-block-start: 3px;
+    padding-block-end: 3px;
+    text-align: center;
+     
+}
+.btnfullwhite {
+    background-color: #f3f3f3;
+    width: 100%;
+    height: 50px;
+    border-color: #0043ae;
+	border-radius: 40px;
+    box-sizing: border-box;
+	color: #fff;
+	display: block;
+	font: ultra_light;
+	letter-spacing: 1px;
+	margin: 0 auto;
+	padding: 4px;
+	position: relative;
+    text-decoration: none;
+    z-index: 2;
+    padding-block-start: 3px;
+    padding-block-end: 3px;
+    text-align: center;
+    box-sizing: 0px;
+}
+.btnwhite {
+    background-color: #ffffff;
+	border-radius: 40px;
+    box-sizing: border-box;
+    color: #158131;
+    border-color: #158131;
+	display: block;
+	font: ultra_light;
+	margin: 0 auto;
+	position: relative;
+    text-decoration: none;
+    z-index: 2;
+    text-align: center;
+}
+.flexbox {
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    flex-flow: column;
+   }
+   .left {
+    text-align: left;
+   }
+   .blue{
+       color: #0052c2;
+       background-color: transparent;
+   }
+   .grey{
+       color: #959595;
+   }
+   .green{
+    color: #01c020;
+    text-align: center;
+    width:100%;
+    font-family: semibold; 
+   }
+   
+   .top{
+       text-align: start;
+   }
+   .bluebackground{
+   // background-color: #0052c2;
+   background-color: #003fa8;
+}
+.bluedarkbackground{
+    background-color: #002d6b;
+    color: #ffffff;
+ }
+ .whitedarkbackground{
+    background-color: #ffffff;
+    color: #002d6b;
+ }
+ .paddingmodal{
+    min-height: 50px;
+    border: 2px solid #ffffff;
+    vertical-align: middle;
+ }
+mat-form-field{
+    width: 100%;
+}
+.paddingleft{
+    padding-left: 5%;
+}
+.paddingleftlarge{
+    padding-left: 15%;
+}
+.paddingright{
+    padding-right: 5%;
+}
+.paddingrightlarge{
+    padding-right: 15%;
+}
+.paddingrightsm{
+    padding-right: 10px;
+}
+.paddingtop{
+    padding-top: 10px;
+}
+.paddingtopm{
+    padding-top: 5%;
+}
+.paddingtoplarge{
+    padding-top: 10%;
+}
+.paddingbottom{
+    padding-bottom: 8%;
+}
+.paddingbottomlarge{
+    padding-bottom: 20%;
+}
+.paddingtopneg{
+    padding-top: -200px;
+}
+.emptybutton{
+    padding: 0;
+border: none;
+background: none;
+}
+.login{
+    background-image: url(assets/images/Car-banner.png);
+    background-size: 100% 100%;
+   
+}
+.clear{
+    background-color: transparent;
+}
+.noborder {
+    border:0;
+    padding-bottom: 0;
+    border-bottom:1px solid #c1c1c1;
+}
+.danger{
+    color: red;
+}
+.noMargin { margin: -6px;padding: 0 }
+.paddingsmall{
+    padding: 10px;
+}
+.chamapng{
+    background-image: url(assets/images/home/Chamapng.png);
+    background-size: 100% 100%;
+}
+/deep/ .mat-input-underline {
+    background-color: white;
+}
+.mat-form-field-underline {
+    background-image:linear-gradient(to right,rgba(0,0,0,.42) 0,rgba(0,0,0,.42) 100%,transparent 0);
+    // Set 4px for a solid line /
+    background-size : 4px 4px; 
+  }
+  select{
+      background-position:0;
+      background-color:transparent;
+      height: 40px;
+      width: 100%;
+      border: 0;
+    }
+  option{
+        background-position:0;
+        background-color:transparent;
+        padding-left: 200px;
+    }
+    .btn-transparent100{
+        background-color: transparent;
+        width: 100%;
+        text-align: center;
+        border-color: transparent;
+      }
+ .btn-decline100{
+        background-color: #ffffff;
+        color: #00288a;
+        border: #00288a solid 1px;
+        min-width: 100%;
+      }
+    .btn-create100{
+        background-color: #dc1431;
+        color: #ffffff;
+        width: 100%;
+        text-align: center;
+        border: #dc1431 solid 1px;
+      }
+      #myBtn {
+        display: none; // Hidden by default /
+        position: fixed; // Fixed/sticky position /
+        bottom: 20px; // Place the button at the bottom of the page /
+        right: 30px; // Place the button 30px from the right /
+        z-index: 99; // Make sure it does not overlap /
+        border: none; // Remove borders /
+        outline: none; // Remove outline /
+        background-color: #0052c2; // Set a background color /
+        color: white; // Text color /
+        cursor: pointer; // Add a mouse pointer on hover /
+        padding: 15px; // Some padding /
+        border-radius: 10px; // Rounded corners /
+    }
+    
+    #myBtn:hover {
+        background-color: #00288a; // Add a dark-grey background on hover /
+    }
+    .card-img-overlay{
+        width: 100% !important;
+        padding: 0 !important;
+        border: 0 !important;
+    }

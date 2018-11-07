@@ -1,0 +1,170 @@
+
+<div *ngIf="isLogin">
+<div class="row">
+    <div class="d-none d-lg-block col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6  margin-right:-15% margin-left:-15% login paddingtoplarge paddingbottomlarge">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                <img src=" assets/images/logo.png" width="200px" height="auto">
+            </div>
+            <div class="h1 paddingtopm" style="color:blue">
+                  Virtual Agency
+                  
+            </div>
+           
+      </div>
+      <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 chamapng">
+            <div class="alignright paddingsmall"><img src=" assets/images/home/x.png" width="10" height="auto" (click)="closemodal()"></div>
+       <!--Login Part start-->
+           
+          <div class="row paddingtoplarge">
+                <div class="col-12 h2 blue">
+                    Welcome to Virtual insurance
+                </div>
+          </div>
+        <!--Reactive Login Form-->
+         
+           <div class="row">
+                <div class="col-12 centered">
+              
+                    <form [formGroup]="loginForm" (ngSubmit)="login()">
+                        <mat-form-field>
+                          <input matInput formControlName="email" placeholder="Email Address" (keyup.enter)="login()">
+                        </mat-form-field>
+                        <mat-form-field>
+                          <input matInput type="password" formControlName="password" placeholder="Password" (keyup.enter)="login()">
+                        </mat-form-field>
+                        <div class="btn btn-transparent100 alignleft blue" (click)="forgot()">forgot password</div>
+                      </form>
+                  <div fxLayout="column" fxLayoutGap="16px">
+      <!--    <a mat-button i18n fxFlex="50%" fxFlex.lt-md="none" (click)="forgotPassword()">
+              Forgot Password?
+            </a>
+          -->
+          <div fxLayout="row">
+              <button mat-raised-button i18n type="submit" fxFlex="100%" fxFlex.lt-md="none" color="primary"  mdbWavesEffect
+              type="submit">Sign in</button>
+              <button mat-button i18n type="button" color="accent" mat-raised-button  mdbWavesEffect
+              type="submit" (click)="register()">Register</button>
+          </div>
+        </div>
+        
+                </div>
+              </div>
+        
+       
+ 
+</div>
+</div>
+</div>
+<div *ngIf="isRegister">
+    <div class="row">
+        <div class="d-none d-lg-block col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6  margin-right:-15% margin-left:-15% login paddingtoplarge paddingbottomlarge">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                    <img src=" assets/images/logo.png" width="200px" height="auto">
+                </div>
+                <div class="h1 paddingtopm"style="color:blue">
+                      Virtual Agency
+                      
+                </div>
+               
+          </div>
+          <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 chamapng">
+                <div class="alignright paddingsmall"><img src=" assets/images/home/x.png" width="10" height="auto" (click)="closemodal()"></div>
+           <!--Login Part start-->
+               
+              <div class="row paddingtoplarge">
+                    <div class="col-12 h2 blue">
+                      Register
+                    </div>
+              </div>
+            <!--Reactive Login Form-->
+             
+               <div class="row">
+                    <div class="col-12 centered">
+    
+        <form [formGroup]="registerForm">
+          <div fxLayout="row" fxLayout.sm="column">
+            <mat-form-field class="portal-remove-fixed-infix-width portal-first-name">
+              <input matInput formControlName="first_name" placeholder="First Name">
+            </mat-form-field>
+            <mat-form-field class="portal-remove-fixed-infix-width">
+              <input matInput formControlName="last_name" placeholder="Last Name">
+            </mat-form-field>
+          </div>
+          <mat-form-field>
+            <input matInput formControlName="email" type="email" placeholder="Email Address">
+          </mat-form-field>
+          <mat-form-field>
+            <input matInput type="password" formControlName="password" placeholder="Password">
+          </mat-form-field>
+          
+        </form>
+  
+        <div fxLayout="column" fxLayoutGap="16px">
+            <!--    <a mat-button i18n fxFlex="50%" fxFlex.lt-md="none" (click)="forgotPassword()">
+                    Forgot Password?
+                  </a>
+                -->
+              <div fxLayout="row">
+                  
+                  <button mat-button i18n type="button" color="accent" mat-raised-button  mdbWavesEffect
+                  type="submit" (click)="login()">Sign In</button>
+              </div>
+            </div>
+                      </div>
+                    </div>
+              
+             
+       
+      </div>
+      </div>
+      </div>
+<div *ngIf="isForgot">
+      <div class="row">
+          <div class="d-none d-lg-block col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6  margin-right:-15% margin-left:-15% login paddingtoplarge paddingbottomlarge">
+                  <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                      <img src=" assets/images/logo.png" width="200px" height="auto">
+                  </div>
+                  <div class="h1 paddingtopm" style="color:blue">
+                        Virtual Agency
+                        
+                  </div>
+                 
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 chamapng">
+                  <div class="alignright paddingsmall"><img src=" assets/images/home/x.png" width="10" height="auto" (click)="closemodal()"></div>
+             <!--Login Part start-->
+                 
+                <div class="row paddingtoplarge">
+                      <div class="col-12 h2 blue">
+                          Welcome to Virtual insurance
+                      </div>
+                </div>
+              <!--Reactive Login Form-->
+               
+                 <div class="row">
+                      <div class="col-12 centered">
+              <form [formGroup]="forgotForm" (ngSubmit)="goToLogin()" class="portal-forgot-card__item">
+                <mat-form-field>
+                  <input matInput formControlName="email" placeholder="Email Address" (keyup.enter)="goToLogin()">
+                </mat-form-field>
+              </form>
+              <button mat-raised-button i18n style="color:blue" class="portal-forgot-card__item"
+                type="submit"
+                color="blue"
+                >
+                Send Reset Link
+              </button>
+              <a mat-button i18n style="color:blue"
+                (click)="login()">
+                Back to login
+              </a>
+            
+                            </div>
+                          </div>
+                    
+                   
+             
+            </div>
+            </div>
+            </div>
+        
